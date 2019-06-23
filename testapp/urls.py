@@ -1,0 +1,9 @@
+
+from django.urls import path
+from testapp import views
+
+urlpatterns = [
+    path('frist', views.first_view),
+    path('second', views.second_view),
+    path('third', views.third_view)
+]
